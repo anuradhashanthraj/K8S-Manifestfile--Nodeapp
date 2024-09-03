@@ -5,7 +5,7 @@ metadata:
   namespace: node-ns
 spec: 
    containers:
-     - image: anusocial123/node-image:latest
+     - image: anusocial123/node-app-image:latest
        name: web-container
        ports:
          - containerPort: 3000
