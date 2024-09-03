@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: node-pod
+  namespace: node-ns
+spec: 
+   containers:
+     - image: anusocial123/node-image:latest
+       name: web-container
+       ports:
+         - containerPort: 3000
